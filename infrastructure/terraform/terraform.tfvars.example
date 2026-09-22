@@ -1,0 +1,12 @@
+# Copy file này thành terraform.tfvars và điền giá trị thực
+# File terraform.tfvars đã có trong .gitignore — KHÔNG commit lên Git
+
+aws_region    = "ap-southeast-1"
+bucket_name   = "lakehouse-iceberg-data"
+environment   = "prod"
+create_ec2    = false
+github_repo   = "lamvu309/lakehouse-iceberg-snowflake-platform"
+
+# ec2_instance_type = "m5.xlarge"   # Chỉ cần nếu create_ec2 = true
+# ec2_ami_id        = "ami-xxx"     # Amazon Linux 2023 AMI của region bạn
+# ec2_key_name      = "your-key"   # SSH key pair name
